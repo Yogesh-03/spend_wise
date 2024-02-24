@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="horizontalLine" parent="Base.Theme.SpendWise">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginHorizontal">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/line</item>
+    </style>
+
+    <style name="sectionHeadingText" parent="Base.Theme.SpendWise">
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="textOutlineColor">@color/sectionHeadingText</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
